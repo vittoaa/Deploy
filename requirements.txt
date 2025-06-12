@@ -5,3 +5,4 @@ tensorflow
 pillow
 pymongo
 gunicorn
+scipy
