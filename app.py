@@ -176,7 +176,7 @@ def recognize_face():
 
     best_match = None
     min_distance = float('inf')
-    threshold = 0.8  # Sesuaikan threshold ini
+    threshold = 0.7
 
     for face_data in all_faces:
         db_embedding = np.array(face_data["embeddings"])
